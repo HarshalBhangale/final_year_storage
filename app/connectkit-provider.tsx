@@ -43,11 +43,10 @@ export const ConnectkitProvider = ({ children }: { children: React.ReactNode }) 
       walletConnectProjectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "",
   
       // Required
-      appName: "Streamline",
+      appName: "vegen",
   
       // Optional
-      appDescription: "Streamline",
-      appUrl: "https://streamline.vercel.app/",
+    
       // appIcon: "https://family.co/logo.png", // your app's icon, no bigger than 1024x1024px (max. 1MB)
       chains: allowedChains,
        connectors: [
@@ -61,7 +60,7 @@ export const ConnectkitProvider = ({ children }: { children: React.ReactNode }) 
           }),
           new CoinbaseWalletConnector({
            chains: allowedChains,
-           options: { appName: "Streamline" }
+           options: { appName: "vegen" }
           }),
       ],
     }),
