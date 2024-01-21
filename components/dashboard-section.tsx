@@ -7,7 +7,7 @@ export default function DashboardSection() {
   
   return (
     <div className="text-black bg-white py-32 px-8">
-      <Label className="text-2xl font-bold">Streamline Dashboard</Label>
+      <Label className="text-2xl font-bold"> Dashboard</Label>
    </div>
   )
 }
