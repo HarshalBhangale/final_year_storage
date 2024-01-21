@@ -52,16 +52,7 @@ export default function HeaderSection() {
                       Home
                   </Link>
               </Button>
-              <Button asChild variant="ghost">
-                  <Link href="/dashboard" className="text-sm font-medium transition-colors">
-                      Dashboard
-                  </Link>
-              </Button>
-              <Button asChild variant="ghost">
-                  <Link href="/deposit" className="text-sm font-medium transition-colors">
-                    Create Stream
-                  </Link>
-              </Button>
+            
               </>
             )}
             </nav>
